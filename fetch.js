@@ -2,7 +2,6 @@
 console.log("HI")
 
 
-
 const header = document.querySelector("#myHeader"); // getting element with id = myheader, and storing inside variable "header"
 
 // // Globalising the scope for this endpoint since all functions will eventually need it 
