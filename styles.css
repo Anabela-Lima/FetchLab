@@ -1,0 +1,68 @@
+
+/* define what happens with box div */
+
+#box{
+
+    /* setting minimum box height */
+    min-height:40px;  
+    /* then the height is adjusted automatically to accomate to input text */
+    height: auto;
+    width: 200px;  
+    background-color: beige;
+    border-radius: 10px;
+    border: double;
+    border-color: black;
+     
+}
+
+/* world countries box */
+
+#box2{
+
+    /* setting minimum box height */
+   
+    height: 35px;
+    width: 170px;  
+    background-color: rgb(251, 237, 221);
+    border-radius: 10px;
+    /* added solid border */
+    border: solid;
+    /* wanted it slighyly thinner */
+    border-width: thin;
+    /* changed its colour to black */
+    border-color: black;
+     
+}
+
+/* 
+wanted to move text slightly more to middle relative to its box  */
+
+#worldCountries{
+    left: 15px;
+    top: 5px;
+    position: relative; 
+}
+
+
+/* default background page colour */
+
+body{
+    background-color: rgb(255, 251, 254);
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* good links for future: */
+/* https://www.w3schools.com/css/css_border.asp */
